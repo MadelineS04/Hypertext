@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!choices.length && !ending) return;
 
-    // No option is selected when the page first loads.
-    // The > only appears when the player hovers over an option.
     let selected = -1;
 
     const update = () => {
